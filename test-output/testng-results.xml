@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Screenshots are going to attach]]>
+    </line>
+    <line>
+      <![CDATA[All the pass screenshots are attached]]>
+    </line>
+    <line>
+      <![CDATA[HTML REPEORT IS DONE And Check the Repiorts]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8847" started-at="2019-09-12T10:53:45Z" finished-at="2019-09-12T10:53:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8847" started-at="2019-09-12T10:53:45Z" finished-at="2019-09-12T10:53:53Z">
+      <class name="com.TestRunner.TestExecutionwindow">
+        <test-method status="PASS" signature="initialeecution()[pri:0, instance:com.TestRunner.TestExecutionwindow@57baeedf]" name="initialeecution" is-config="true" duration-ms="268" started-at="2019-09-12T10:53:44Z" finished-at="2019-09-12T10:53:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialeecution -->
+        <test-method status="PASS" signature="executionwindow()[pri:0, instance:com.TestRunner.TestExecutionwindow@57baeedf]" name="executionwindow" duration-ms="8002" started-at="2019-09-12T10:53:45Z" finished-at="2019-09-12T10:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executionwindow -->
+        <test-method status="PASS" signature="screenshotattach(org.testng.ITestResult)[pri:0, instance:com.TestRunner.TestExecutionwindow@57baeedf]" name="screenshotattach" is-config="true" duration-ms="821" started-at="2019-09-12T10:53:53Z" finished-at="2019-09-12T10:53:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=executionwindow status=SUCCESS method=TestExecutionwindow.executionwindow()[pri:0, instance:com.TestRunner.TestExecutionwindow@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshots are going to attach]]>
+            </line>
+            <line>
+              <![CDATA[All the pass screenshots are attached]]>
+            </line>
+            <line>
+              <![CDATA[HTML REPEORT IS DONE And Check the Repiorts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshotattach -->
+      </class> <!-- com.TestRunner.TestExecutionwindow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
